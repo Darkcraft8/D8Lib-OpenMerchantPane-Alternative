@@ -1,7 +1,7 @@
 require "/scripts/util.lua"
 
 function init()
-    --shellguard dev code
+    --shellguard dev code. get interaction action and data from the object and overrride them with the one of the parentVendor
   self.iAction = config.getParameter("iAction")
   self.iData = config.getParameter("iData")
   
@@ -12,11 +12,11 @@ function init()
   self.iData.items = itemConfig.config.interactData.items
   
   object.setInteractive(true)
-    -- conversion code
-  object.setConfigParameter("interactData", self.iData)
+	-- patch code
+  object.setConfigParameter("interactData", self.iData) -- set the interactData of the placed object to iData so that it can be used by the custom vending pane
 end
 
-function onInteraction(args)
+function onInteraction(args) -- replaced entire onInteraction so that the custom vending pane is used instead
   self.config = nil
   self.interactData = config.getParameter("interactData")
   if self.interactData.config == "/interface/windowconfig/merchant.config" then
