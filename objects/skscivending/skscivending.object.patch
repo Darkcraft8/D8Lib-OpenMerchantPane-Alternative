@@ -1,0 +1,13 @@
+[
+	[
+		{"op": "test","path": "/scripts", "inverse" : true },
+		{"op": "add","path": "/scripts", "value": []}
+	],
+	[
+	  {
+		"op": "add",
+		"path": "/scripts/0",
+		"value": "/d8lib-vendingmachine_custom_pane/scripts/objects/vendingmachine_and_merchantobject_convertor.lua"
+	  }
+	]
+]
