@@ -1,0 +1,12 @@
+{
+  "author" : "Darkcraft8",
+  "description" : "Reroute the interaction event to open the Scripted Pane instead of the vanilla \"OpenMerchantInterface\" Pane\n \n    Supported Mods\n   - Vanilla\n   - Arcana\n   - Avali Plus\n   - Bunnikin\n   - Chef Gear\n   - Dresses n Skirts Pack\n   - Elithian Race\n   - Enhanced Storage\n   - Fragmented Ruin Race\n   - Gothic Outfit Pack\n   - Hitch!\n   - Kitsune Race\n   - Kobold Race\n   - K'Rakoth Mod\n   - Letheia Expanded\n   - Lyceen Race\n   - Maid n Butler Outfits\n   - More Outpost Objects\n   - New Protectorate Gear\n   - Pirate Packs\n   - Play as NPCs\n   - Protectorate Objects\n   - PumpGame School Furniture Set\n   - roro V.E.F\n   - Ryophi Species Mod\n   - Scientist Outfit Pack\n   - Shellguard Expansion except: sgvendingguard, sgvendingturret, sgvendingatmos\n   - Skelekin Race\n   - Skittle's Christmas Goodies\n   - Skittle's Mannequin Pack\n   - Space Orcs\n   - Suits n Stuff Pack\n   - Sumiko's Art Stand\n   - SWAT RAID Gear Pack Pack\n   - Tacticool Gear Pack\n   - The Nightars\n   - The Starforge\n   - Totally Playable Frogg Race\n   - Wings and Things   ",
+  "friendlyName" : "D8Lib : Vending Machine Custom Pane - Mod Patch",
+  "link" : "steam://url/CommunityFilePage/3084233942",
+  "name" : "d8lib_vendingmachine_custom_pane_mod_patch",
+  "priority" : 30,
+  "steamContentId" : "3090200205",
+  "includes": ["Arcana","Avali Plus","Bunnykin","Chef Gear","Dresses n Skirts Pack","Elithian_Races_Mod","Enhanced Storage","fragmented_ruin","Gothic Outfit Pack","Hitch","kitsunerace","precursorracekrakoth","Letheia Expanded","Lyceen  Race","Maid n Butler Outfits","More Outpost Objects","New Protectorate Gear","Space Orcs","Pirate Pack","Play as NPCs","Protectorate Objects","pumpgameschoolfurniture","roro V.E.F","Shellguard Expansion ","Skittles Mannequin Pack","sumikoartmerchant","SWAT RAID Gear Pack Pack","The Starforge v1.0","The Ryophi","Totally Playable Frogg Race","Scientist Outfit Pack","Skelekin Race","Skittle's Christmas Goodies","Suits n Stuff Pack","Tacticool Gear Pack","The Nightars","Wings and Things","koboldracebobbymonboy","Dresses n Skirts Pack"],
+  "tags" : "Miscellaneous|Dungeons|Mechanics",
+  "version" : "1.5.1"
+}
